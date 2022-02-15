@@ -1,22 +1,51 @@
 body {
-    background-color: white;
+    background: url(https://cdn1.vectorstock.com/i/1000x1000/45/10/education-background-vector-10664510.jpg);
+    opacity: 0.9;
 }
 
-.group-pic {
-    min-height: 100%;
-    min-width: 100%;
+#ants-name {
+    font-size: 300%;
+    text-decoration: underline;
+    font-weight: bolder;
+    text-align: center;
 }
 
-.ants-head {
-    max-height: 10%;
-    max-height: 10%;
-    left: 10px;
-    top: 10px;
-    bottom: 10px;
-    right: 10px;
-    left: 10px;
+#sub-heading {
+    font-size: 150%;
+    font-weight: bolder;
+    text-align: center;
 }
 
-div {
-    background-color: blue;
+#ants-head {
+    text-align: center;
+    font-weight: bolder;
+    width: auto;
+    margin: auto;
+    background-color: rgb(231, 155, 83);
+    opacity: 1;
+}
+
+
+}
+
+/* span needs changing to alter bullet points*/
+#below-the-wild {
+    background-color: aqua;
+}
+#bullet-points {
+    column-count: 2;
+    column-rule-style: dashed font-size: 150%;
+    list-style-position: outside;
+    text-align-last: left;
+}
+
+/*
+span {
+    position: relative;
+    left: -10px;
+}
+*/
+p,
+h2 {
+    margin: 0px;
 }
