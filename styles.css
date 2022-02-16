@@ -1,17 +1,17 @@
+#overall {
+    border: 50px;
+    border-style: solid;
+    border-color: lightgray;
+}
+
 html {
-    background-image: url(https://site.groupe-psa.com/content/uploads/sites/9/2016/12/white-background-2.jpg), url(https://cdn1.vectorstock.com/i/1000x1000/45/10/education-background-vector-10664510.jpg), url(https://wallpapercave.com/wp/wp3269246.jpg);
-    /* opacity: ; */
-    margin-top: 100px, 80px, 60px;
-    margin-right: 100px, 30px, 10px;
+    background-image: url(https://site.groupe-psa.com/content/uploads/sites/9/2016/12/white-background-2.jpg), url(https://wallpapercave.com/wp/wp3165125.jpg), url(https://site.groupe-psa.com/content/uploads/sites/9/2016/12/white-background-2.jpg);
     outline: 2px solid blue;
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: 50% 180px, 50% 40px, 50% 0px;
-    ;
-    /*background-position: top center;*/
+    border: 50px;
+    border-color: blue;
 }
-
-
-/*need 3 backgrounds layered and positioned so the outer top one can be fu*/
 
 #ants-name {
     font-size: 300%;
@@ -33,6 +33,10 @@ html {
     opacity: 1;
 }
 
+#img-caption {
+    font-size: larger;
+}
+
 
 /* span needs changing to alter bullet points*/
 
@@ -41,26 +45,20 @@ html {
 }
 
 #tribute-info {
-    color: green;
+    color: black;
     text-align: center;
 }
 
 #bullet-points {
-    column-count: 2;
+    column-count: 1;
     list-style-position: outside;
     text-align-last: left;
-    color: green;
+    color: black;
+    list-style-position: inside;
+    margin-left: 45%;
 }
 
-
-/*
-span {
-    position: relative;
-    left: -10px;
-}
-*/
-
-p,
-h2 {
-    margin: 0px;
+#ants-life {
+    color: blue;
+    text-align: justify;
 }
