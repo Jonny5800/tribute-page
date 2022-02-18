@@ -1,98 +1,124 @@
-                body {
-                    margin: 20px;
-                    background-image: url(https://thumbs.dreamstime.com/b/close-up-light-grey-paper-texture-background-high-resolution-photo-close-up-light-grey-paper-texture-background-138302119.jpg);
-                }
-                
-                #his-name {
-                    padding-top: 40px;
-                    font-size: 50px;
-                    font-family: 'Courier New', Courier, monospace;
-                    font-weight: bold;
-                    text-align: center;
-                    text-decoration: underline;
-                }
-                
-                #inspire {
-                    padding-top: 20px;
-                    padding-bottom: 60px;
-                    font-size: 20px;
-                    font-family: 'Courier New', Courier, monospace;
-                    font-style: italic;
-                    font-weight: bold;
-                    text-align: center;
-                    text-decoration: dotted;
-                }
-                
-                #ants-pic {
-                    text-align: center;
-                    /* background-color: white;*/
-                    /*padding: 40px, 20px, 20px, 20px;*/
-                    border: 5px solid white;
-                    padding: bottom 10px;
-                }
-                
-                #caption {
-                    text-align: center;
-                    padding-top: 20px
-                }
-                
-                #timeline-heading {
-                    text-align: center;
-                    padding-top: 50px;
-                }
-                
-                #bullet-points {
-                    text-align: left;
-                    column-count: 1;
-                    margin-left: 40%;
-                }
-                
-                #so-far {
-                    text-align: left;
-                    margin-left: 30%;
-                    padding-top: 15px
-                }
-                
-                #more-info {
-                    margin-left: 30%;
-                    text-align: left;
-                    padding-top: 30px;
-                }
-                /*
-        #container {
-            width: 100vw;
-            height: 100vh;
-            font-family: 'Courier New', Courier, monospace;
-            font-weight: bold;
-            font-size: 20px;
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            grid-template-rows: repeat(10, 1fr);
-            gap: 0px;
-            padding: 10px;
-            box-sizing: border-box;
-        }*/
-                /*
-        #container div {
-            padding: 10px;
-            border: 1px solid black
-        }*/
-                /*
-        #header {
-            grid-column: 1/5;
-             grid-column-start: 1;
-            grid-column-end: 5;
-        }*/
-                /*#content-large {
-            grid-row-start: 2;
-            grid-row-end: 2;
-            grid-column-start: 1;
-            grid-column-end: 3;
-        }*/
-                /*
-        #footer {
-            grid-column-start: 1;
-            grid-column-end: 4;
-            grid-row-start: 4;
-            grid-row-end: 4;
-        }*/
+body {
+    margin: 20px;
+    background-image: url(https://thumbs.dreamstime.com/b/close-up-light-grey-paper-texture-background-high-resolution-photo-close-up-light-grey-paper-texture-background-138302119.jpg);
+}
+
+#his-name {
+    padding-top: 40px;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#inspire {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: dotted;
+}
+
+#ants-head {
+    max-width: 50%;
+    height: auto;
+    border: 3px solid white;
+    padding: 20px;
+    text-align: right;
+}
+
+#move-head {
+    text-align: center;
+}
+
+#caption {
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: underline;
+}
+
+#timeline-heading {
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+
+/*
+#center-points {
+    display: inline-block;
+    text-align: left;
+}*/
+
+#bullet-points {
+    margin-left: 45%;
+    margin-right: 10%;
+    width: 100%: auto;
+    /*text-align: left;
+         column-count: 1;
+         margin-left: 40%;*/
+}
+
+#so-far {
+    text-align: left;
+    margin-left: 25%;
+    padding-top: 15px
+}
+
+#more-info {
+    margin-left: 25%;
+    text-align: left;
+    padding-top: 30px;
+}
+
+
+/*
+     #container {
+         width: 100vw;
+         height: 100vh;
+         font-family: 'Courier New', Courier, monospace;
+         font-weight: bold;
+         font-size: 20px;
+         display: grid;
+         grid-template-columns: repeat(4, 1fr);
+         grid-template-rows: repeat(10, 1fr);
+         gap: 0px;
+         padding: 10px;
+         box-sizing: border-box;
+     }*/
+
+
+/*
+     #container div {
+         padding: 10px;
+         border: 1px solid black
+     }*/
+
+
+/*
+     #header {
+         grid-column: 1/5;
+          grid-column-start: 1;
+         grid-column-end: 5;
+     }*/
+
+
+/*#content-large {
+         grid-row-start: 2;
+         grid-row-end: 2;
+         grid-column-start: 1;
+         grid-column-end: 3;
+     }*/
+
+
+/*
+     #footer {
+         grid-column-start: 1;
+         grid-column-end: 4;
+         grid-row-start: 4;
+         grid-row-end: 4;
+     }*/
